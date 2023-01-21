@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">  
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="reg.css">
+</head>
+<body>
+    <div class="h">
+    <h1 class="h1">USER REGISTRATION FORM</h1>
+    </div>
+    <form>
+        <div class="b1">
+        <label for="name">Name</label>
+        <input type="text" class="name" id="name1" autocomplete="off"><br>
+        </div>
+        <div class="b2">
+        <label for="mail">E-mail</label>
+        <input type="email" class="mail" id="mail" autocomplete="off"><br>
+        </div>
+        <div class="b3">
+        <label for="website">website</label> 
+        <input type="url" class="website" id="website" autocomplete="off"><br>
+        </div>
+        <div class="b4">
+        <label for="img">Image Link </label>
+        <input type="url" class="img" name="img" id="img" autocomplete="off">
+        </div>
+        <div class="chm">
+        <span class="ch">Gender</span>
+        <div class="ch1">
+	    <input class="check" id="male" type="radio" name="setB_gender" value="Male">
+		<label for="male">Male</label><br>
+	    <input class="check" id="female" type="radio" name="setB_gender" value="Female">
+		<label for="female">Female</label><br>
+        </div>
+        </div>
+        <div class="ch2">Skills</div>
+        <div class="chm2">
+            <input type="checkbox" checked="checked" value="Html" id="s1" name="chk">
+            <span class="checkmark"></span>
+            <label class="container">Html</label>
+            <input type="checkbox" checked="checked" value="CSS"  id="s2" name="chk">
+            <span class="checkmark"></span>
+            <label class="container">CSS</label>
+            <input type="checkbox" checked="checked" value="JAVA" id="s3" name="chk">
+            <span class="checkmark"></span>
+            <label class="container">Java</label>
+        </div>
+        <div class="btn">
+            <button class="btn1" type="button">Enroll</button>
+        <span class="btnb">
+            <button class="btn2" type="reset">Clear</button>
+        </span>
+        </div>
+    </form>
+    <div> 
+    </div>
+    <div class="maindiv">
+        <div class="card">
+           <img src="us1.jpg" alt="Avatar" style="width:100%">
+            <div class="container">
+              <h4><b>Chris Hemsworth</b></h4>
+              <p>Male</p>
+              <p>Hemsworth99@gmail.com</p>
+              <p>Java</p> 
+            </div>
+        </div>
+    </div>
+
+<script src="reg.js"></script>
+    
+</body>
+</html>
